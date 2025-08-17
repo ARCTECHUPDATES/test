@@ -6,7 +6,7 @@ import os
 # insert your Telegram bot token here
 bot = telebot.TeleBot('7373552955:AAH8ZyvtmsyK7GMwqGCA7oK-g4Qx8Xh5pRE')
 # Admin user IDs
-admin_id = ["5512007480"]
+admin_id = ["8165536363"]
 
 blocked_ports = [8700, 20000, 443, 17500, 9031, 20002, 20001]  # Blocked ports list
 
@@ -440,6 +440,7 @@ while True:
         bot.polling(none_stop=True)
     except Exception as e:
         print(e)
+
 
 
 
